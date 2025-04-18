@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  overflow: hidden;
+  background-color: #ffffff59;
+}
+#logo
+{
+    display: flex;
+    height: 159px;
+    margin-left: 5%;
+    margin-top: -50px;
+}
+.symptoms-check {
+  border: 0.5px solid rgba(128, 128, 128, 0);
+  box-shadow: 5px 5px 10px #88888888;
+  height: 580px;
+  width: 870px;
+  margin-left: 100px;
+  margin-top: -34px;
+  background-color: white;
+  border-radius: 10px;
+  /* display: flex; */
+}
+
+/* front SVG */
+#full-body {
+    display: block;
+    visibility: visible;
+    margin-top: -528px;
+    margin-left: 576px;
+    height: 1625px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#back-body {
+  height: 540px;
+  margin-left: 617px;
+  margin-top: -2020px;
+  display: flex;
+ 
+}
+
+/* back SVG */
+#full-body-back{
+  display: none;
+  visibility: hidden;
+    margin-top: -528px;
+    margin-left: 569px;
+    height: 440px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.body-image {
+    position: absolute;
+    height: 440px;
+    margin-left: 628px;
+    margin-top: -528px;
+}
+    
+
+/* .svg {
+  opacity: 0;
+} */
+
+
+.body-part-head {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: 40px;
+  margin-left: 500px;
+}
+
+.body-part-neck {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: 10px;
+  margin-left: 690px;
+}
+
+.body-part-chest {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: 40px;
+  margin-left: 480px;
+}
+
+.body-part-arms {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: -15px;
+  margin-left:450px;
+}
+
+.body-part-abdomen {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: -10px;
+  margin-left: 740px;
+}
+
+.body-part-pelvis {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: 10px;
+  margin-left: 760px;
+  
+}
+
+.body-part-legs {
+  visibility: hidden;
+  font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  color: rgb(137, 137, 137);
+  height: 30px;
+  width: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bdbdbd82;
+  margin-top: 40px;
+  margin-left: 460px;
+}
+
+.body-part-back {
+  visibility: hidden;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top:-236px;
+    margin-left: 490px;
+
+}
+
+.body-part-butcock {
+  visibility: hidden;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 137, 137);
+    height: 30px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #bdbdbd82;
+    margin-top: 80px;
+    margin-left: 754px;
+
+}
+
+input #input-symptom {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+input {
+  justify-content: center;
+  text-align: center;
+}
+
+#input-age {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 150px;
+  height: 40px;
+  width: 60px;
+}
+
+#text-age {
+  font-family: poppins;
+  margin-top: 0px;
+  margin-left: 150px;
+  display: flex;
+  width: 50px;
+}
+
+option {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#text-gender {
+  font-family: poppins;
+  margin-top: -90px;
+  margin-left: 350px;
+  display: flex;
+  width: 150px;
+}
+
+#input-gender {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 350px;
+  height: 45px;
+  width: 150px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+}
+
+#text-symptoms {
+  font-family: poppins;
+  margin-top: 50px;
+  margin-left: 150px;
+  display: flex;
+  width: 300px;
+}
+
+#input-symptom {
+   
+        margin-top: 20px;
+        margin-left: 150px;
+        height: 40px;
+        width: 350px;
+        text-align: start;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    
+
+
+::placeholder {
+  justify-content: left;
+  text-align: left;
+  font-family: poppins;
+  padding-left: 10px;
+}
+
+.report {
+  background-color: aqua;
+  height: 580px;
+  width: 400px;
+  margin-left: 1030px;
+  margin-top: -310px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #88888888;
+  display: flex;
+  overflow: auto;
+}
+
+#report-text {
+  
+  display: flex;
+  font-family: poppins;
+  margin-top: 20px;
+  margin-left: 39px;
+}
+
+.container1 {
+  position: relative;
+}
+.container2 {
+  position: relative;
+}
+
+#rotateBtn {
+    margin-left: 900px;
+    margin-top: -550px;
+    display: flex;
+    height: 40px;
+    width: 46px;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid grey;
+    border-radius: 20%;
+    cursor: pointer;
+}
+#frontImage {
+    display: block;
+  }
+  
+#backImage {
+    display: none;
+    margin-left: 618px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    max-height: 200px;
+}
+
+.dropdown-content label {
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-content label:hover {
+    background-color: #ddd;
+}
+
+
+
+#diagnose-report{
+  display: flex;
+  margin-top: 80px;
+  margin-left: -300px;
+  width: 350px;
+  font-family: poppins;
+  
+}
+
+
+#diagonise{
+  margin-left: 40px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border-radius:10px ;
+  border: 0.5px solid gray;
+  font-family: poppins;
+}
+.dropdown{
+  margin-left: 150px;
+  margin-top: 20px;
+  height: 30px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropbtn{
+  height: 50px;
+  width: 200px;
+  font-family: poppins;
+  background-color: white;
+}
+.arrow {
+  border: solid rgb(62, 62, 62);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 15px;
+  margin-top: -10px;
+}
+.dropdown-content{
+  width: 200px;
+}
